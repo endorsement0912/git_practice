@@ -28,6 +28,7 @@
 | `git clone URL`      | 리모트 저장소 복제                   |
 | `git log`            | 커밋 로그 확인                      |
 | `git blame 파일명`   | 파일에서 각 줄의 마지막 수정자 확인    |
+| `git mv oldfile.md newfile.md`   | 파일 이름 변경  |
 
 ### 추가 설명
 * `git init` ➡️ 처음 깃 저장소를 설정할때 필요
