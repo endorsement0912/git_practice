@@ -33,6 +33,7 @@
 | `git clone URL`      | 리모트 저장소 복제                   |
 | `git log`            | 커밋 로그 확인                      |
 | `git blame 파일명`   | 파일에서 각 줄의 마지막 수정자 확인    |
+| `git remote remove origin`   | 기존 원격 저장소 연결 제거    |
 
 ### 추가 설명
 * `git init` ➡️ 처음 깃 저장소를 설정할때 필요
@@ -40,7 +41,7 @@
 
 <br>
 
-## 📥 Github에서 원격저장소 가져오는 방법
+## 📥 Github에서 원격저장소 가져오는 방법(초기 설정)
 
 1. `git clone 레포지토리주소` ➡️ 내 로컬 저장소 git 환경 초기화
 
@@ -67,6 +68,17 @@
 3. `git status(선택적)` ➡️ 변경 사항이 잘 반영 되었는지 확인
 
 4. `git push (origin main)` ➡️ 로컬 커밋을 원격 저장소에 업로드
+
 <br>
 
+## 🗂️ 리포지토리 변경 및 원격 저장소 설정 방법
+⛓️‍💥 새 리포지토리로 변경하기
+* `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
+* `git clone 레포지토리주소` ➡️ 새 리포지토리를 로컬에 클론
 
+🔗 기존 리포지토리로 변경하기
+* `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
+* `git remote add origin 레포지토리주소` ➡️ 자신의 기존 원격 저장소를 추가
+    * `git clone 레포지토리주소`는 이미 클론된 리포지토리 디렉토리가 있는 경우에는 사용불가
+    * 기존 작업 디렉토리에서 바로 변경하고 싶으면 `git remote add origin 레포지토리주소`가 더 적합
+* git push -u origin 브랜치명 ➡️ 로컬 브랜치의 커밋을 원격 저장소에 푸시
