@@ -342,35 +342,35 @@ Left|Center|Right
 * `<br>`를 활용해서 줄바꿈을 할 수 있음
 
 ### 사용방법
-	비켜봐 봐, 비켜 핑계는 
-	우린 본질 속에 진주가 될래 
-    꿈의 난이도 좀 더 난 높일게 
+	비켜봐 봐, 비켜 핑계는 <br>
+	우린 본질 속에 진주가 될래  <br>
+    꿈의 난이도 좀 더 난 높일게 <br>
     고통, 시련 다듬어 내가 될게 <br>
-	I'm just 이제 조금 알겠어
-    I shine 왜 날 힘들게 울게만 둔 건지
+	I'm just 이제 조금 알겠어 <br>
+    I shine 왜 날 힘들게 울게만 둔 건지 <br>
     Hold me closer broken myself, yeah <br>
-	La-la-la, la-la-la-la
-    끝까지 가볼래 포기는 안 할래 난
-    La-la-la, la-la-la-la   
-    쓰러져도 일어나
-    We go, we high, go now, oh-oh
-    La-la-la, la-la-la-la
+	La-la-la, la-la-la-la <br>
+    끝까지 가볼래 포기는 안 할래 난 <br>
+    La-la-la, la-la-la-la <br>    
+    쓰러져도 일어나 <br>
+    We go, we high, go now, oh-oh <br>
+    La-la-la, la-la-la-la <br>
     Girls never die 절대 never cry <br>
 
 ### 실행결과
-비켜봐 봐, 비켜 핑계는 
-우린 본질 속에 진주가 될래
-꿈의 난이도 좀 더 난 높일게 
+비켜봐 봐, 비켜 핑계는 <br>
+우린 본질 속에 진주가 될래 <br>
+꿈의 난이도 좀 더 난 높일게 <br>
 고통, 시련 다듬어 내가 될게 <br>
-I'm just 이제 조금 알겠어
-I shine 왜 날 힘들게 울게만 둔 건지
+I'm just 이제 조금 알겠어 <br>
+I shine 왜 날 힘들게 울게만 둔 건지 <br>
 Hold me closer broken myself, yeah <br>
-La-la-la, la-la-la-la
-끝까지 가볼래 포기는 안 할래 난
-La-la-la, la-la-la-la
-쓰러져도 일어나
-We go, we high, go now, oh-oh
-La-la-la, la-la-la-la
+La-la-la, la-la-la-la <br>
+끝까지 가볼래 포기는 안 할래 난 <br>
+La-la-la, la-la-la-la <br>
+쓰러져도 일어나 <br>
+We go, we high, go now, oh-oh <br>
+La-la-la, la-la-la-la <br>
 Girls never die 절대 never cry <br>
 
 <br>
@@ -384,15 +384,15 @@ Girls never die 절대 never cry <br>
 * 이미지의 사이즈를 변경하기 위해서는 `<img width="OOOpx" height="OOOpx"></img>`와 같이 표현
 
 ### 사용방법
-	![alt 토심이랑 토뭉이](/img/Toshim_and_Tohmong.jpg)
-  	![alt 토심](/img/Toshim.jpg)
-    ![alt 토심이랑 토뭉이2](/img/Toshim_and_Tohmong2.jpg)
-	![alt Concrete Buildings](https://github.com/jinkyukim-me/markdown_ko/blob/master/img/concrete_building.jpg)
+	![alt 토심이랑 토뭉이](/img/Toshim_and_Tohmong.PNG)
+  	![alt 토심](/img/Toshim.PNG)
+    ![alt 토심이랑 토뭉이2](/img/Toshim_and_Tohmong2.PNG)
+
     
 ### 실행결과
-![alt 토심이랑 토뭉이](/img/Toshim_and_Tohmong.jpg)
-![alt 토심](/img/Toshim.jpg)
-![alt 토심이랑 토뭉이2](/img/Toshim_and_Tohmong2.jpg)
+![alt 토심이랑 토뭉이](/img/Toshim_and_Tohmong.PNG)
+![alt 토심](/img/Toshim.PNG)
+![alt 토심이랑 토뭉이2](/img/Toshim_and_Tohmong2.PNG)
 
 <br>
 
