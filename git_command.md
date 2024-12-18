@@ -68,12 +68,13 @@
 3. `git status(선택적)` ➡️ 변경 사항이 잘 반영 되었는지 확인
 
 4. `git push (origin main)` ➡️ 로컬 커밋을 원격 저장소에 업로드
-<br>
 
 ## 🗂️ 리포지토리 변경 및 원격 저장소 설정 방법
 ⛓️‍💥 새 리포지토리로 변경하기
 * `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
-* `git clone 레포지토리주소` ➡️ 새 리포지토리를 로컬에 클론<br>
+* `git clone 레포지토리주소` ➡️ 새 리포지토리를 로컬에 클론
+
+<br>
 
 🔗 기존 리포지토리로 변경하기
 * `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
