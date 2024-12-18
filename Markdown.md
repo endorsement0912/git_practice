@@ -393,7 +393,6 @@ Girls never die 절대 never cry <br>
 ![alt 토심이랑 토뭉이](/img/Toshim_and_Tohmong.jpg)
 ![alt 토심](/img/Toshim.jpg)
 ![alt 토심이랑 토뭉이2](/img/Toshim_and_Tohmong2.jpg)
-![alt Concrete Buildings](https://github.com/jinkyukim-me/markdown_ko/blob/master/img/concrete_building.jpg)
 
 <br>
 
