@@ -16,11 +16,11 @@
 | `git log`            | 커밋 로그 확인                      |
 | `git blame 파일명`   | 파일에서 각 줄의 마지막 수정자 확인    |
 
-> 원격저장소 가져오는 방법
+## 원격저장소 가져오는 방법
 
-`git clone 레포지토리주소`   내 로컬 저장소 git 환경 초기화
+`git clone 레포지토리주소` ➡️ 내 로컬 저장소 git 환경 초기화
 
-`git init`   내 파일 변경사항 모두 저장
+`git init` ➡️ 내 파일 변경사항 모두 저장
 
 `git add`   변경사항을 이력에 남기기
 
@@ -28,6 +28,6 @@
 
 `git branch 브랜치명 git checkout 브랜치명`   브랜치 만들고 해당 브랜치로 작업환경(Working tree) 옮기기
 
-`git remote add origin 레포지토리주소` 원격 저장소 등록하기 - origin이라는 이름으로 원격 레포지토리 주소가 등록됨
+`git remote add origin 레포지토리주소` 원격 저장소 등록하기  origin이라는 이름으로 원격 레포지토리 주소가 등록됨
 
 `git push -u origin 브랜치명`   한번만 원격저장소와 연동해주면 그 뒤로는 git push만 해주면 됨
