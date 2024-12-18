@@ -79,6 +79,8 @@
 🔗 기존 리포지토리로 변경하기
 * `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
 * `git remote add origin 레포지토리주소` ➡️ 자신의 기존 원격 저장소를 추가
+
     * `git clone 레포지토리주소`는 이미 클론된 리포지토리 디렉토리가 있는 경우에는 사용불가
     * 기존 작업 디렉토리에서 바로 변경하고 싶으면 `git remote add origin 레포지토리주소`가 더 적합
+    
 * git push -u origin 브랜치명 ➡️ 로컬 브랜치의 커밋을 원격 저장소에 푸시
