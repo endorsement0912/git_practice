@@ -14,7 +14,7 @@
 [13. Images 이미지](#6-images-이미지)<br>
 [14. Reference 참고 링크](#14-reference-참고-링크)<br>
 
-## 1. Headers 헤더
+## 1️⃣ Headers 헤더
 * `#`으로 시작하는 텍스트.
 * `#`은 하나부터 여섯개까지 가능.
 * `#`이 늘어날때마다 제목의 스케일 낮아짐
@@ -47,7 +47,7 @@ This is an H2<br>
 
 <br>
 
-## 2. Emphasis 강조
+## 2️⃣ Emphasis 강조
 * 기울여 쓰기(italic) : `*` 또는 `_`로 감싼 텍스트.
 * 두껍게 쓰기(bold) : `**` 또는 `__`로 감싼 텍스트.
 * 취소선 : `~~`로 감싼 텍스트.
@@ -70,7 +70,7 @@ __This will also be bold__<br>
 
 <br>
 
-## 3. Blockquotes 인용
+## 3️⃣ Blockquotes 인용
 * `>`으로 시작하는 텍스트.
 * `>`는 3개까지 가능
 * `1개`는 인용문
@@ -93,12 +93,12 @@ As Grace Hopper said:
 
 <br>
 
-## 4. Lists 목록
-### 4.1. Unordered lists 순서가 없는 목록
+## 4️⃣ Lists 목록
+### 4️⃣.1️⃣ Unordered lists 순서가 없는 목록
 * `*`, `+`, `-` 를 이용해서 순서가 없는 목록을 만들 수 있음
 * 들여쓰기를 하면 모양이 바뀜
 
-### 4.2. Ordered lists 순서가 있는 목록
+### 4️⃣.2️⃣ Ordered lists 순서가 있는 목록
 * 숫자를 기입하면 순서가 있는 목록이 됨
 * 들여쓰기를 하면 모양이 바뀜
 
@@ -138,7 +138,7 @@ As Grace Hopper said:
 
 <br>
 
-## 5. Backslash Escapes 백슬래쉬 이스케이프
+## 5️⃣ Backslash Escapes 백슬래쉬 이스케이프
 * 특수문자를 표현할 때, 표시될 문자 앞에 `\`를 넣고 특수문자를 쓰면 됨
 * 주의할 점은 앞과 뒤에가 형식이 똑같이 백슬래쉬 뒤에 특수문자임 `감싸는 형태가 아님`
 * 백슬래쉬는 아래의 특수문자를 표현할 수 있음
@@ -158,8 +158,8 @@ As Grace Hopper said:
 
 <br>
 
-## 6. Links (Anchor) 링크
-## 6.1. External Links 외부 링크
+## 6️⃣ Links (Anchor) 링크
+## 6️⃣.1️⃣ External Links 외부 링크
 	인라인 링크: [링크](http://example.com "링크 제목")
 	url 링크: <example.com>, <example@example.com>; 꺽쇠 괄호 없어도 자동으로 링크를 사용
 
@@ -179,7 +179,7 @@ As Grace Hopper said:
 네이버 <www.naver.com> <br>
 My mail <jinkyukim.dev@gmail.com><br>
 
-## 6.2. Internal Links 내부 링크
+## 6️⃣.2️⃣ Internal Links 내부 링크
 	[보여지는 내용](#이동할 헤드(제목))
 	괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성
 
@@ -195,7 +195,7 @@ My mail <jinkyukim.dev@gmail.com><br>
 
 <br>
 
-## 7. Fenced Code Blocks 코드 블럭
+## 7️⃣ Fenced Code Blocks 코드 블럭
 * 간단한 인라인 코드는 텍스트를 앞뒤로 \`기호로 감싸면 됨
 * \`\`\` 혹은 ~~~ 코드
 * 첫 줄과 마지막 줄에 Back quote ( \` ) 또는 물결( ~ ) 3개 삽입
@@ -230,7 +230,7 @@ function test() {
 ```
 <br>
 
-## 8. Task Lisk 체크 리스트
+## 8️⃣ Task Lisk 체크 리스트
 * 줄 앞에 `- [x]`를 써서 완료된 리스트 표시
 * 줄 앞에 `- [ ]`를 써서 미완료된 리스트 표시
 * 체크 안에서 강조 외에 여러 기능을 사용할 수 있음
@@ -257,7 +257,7 @@ supported)
 
 <br>
 
-## 9. Horizontal Rules 수평선
+## 9️⃣ Horizontal Rules 수평선
 * \- 또는 * 또는 _ 을 3개 이상 작성
 * 단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워둬야 함
 
@@ -277,7 +277,7 @@ supported)
 
 <br>
 
-## 10. Emoji 이모티콘
+## 1️⃣0️⃣ Emoji 이모티콘
 * 마크다운을 이용해 이모티콘을 표현가능
 * 깃허브도 적용가능
 * 더 많은 리스트는 아래의 사이트로 방문
@@ -295,7 +295,7 @@ GitHub supports emoji!
 
 <br>
 
-## 11. Table 테이블
+## 1️⃣1️⃣ Table 테이블
 * 헤더와 셀을 구분할 때 3개 이상의 `-`(hyphen/dash) 기호가 필요
 * 헤더 셀을 구분하면서 :(Colons) 기호로 셀(열/칸) 안에 내용을 정렬할 수 있음
 * 가장 좌측과 가장 우측에 있는 |(vertical bar) 기호는 생략 가능
@@ -338,7 +338,7 @@ Left|Center|Right
 
 <br>
 
-## 12. Line Breaks 줄바꿈
+## 1️⃣2️⃣ Line Breaks 줄바꿈
 * `<br>`를 활용해서 줄바꿈을 할 수 있음
 
 ### 사용방법
@@ -376,7 +376,7 @@ Girls never die 절대 never cry <br>
 <br>
 
 
-## 13. Images 이미지
+## 1️⃣3️⃣ Images 이미지
 * <img>로 변환됨
 * 링크와 비슷하지만 앞에 `!`가 붙음
 * 인라인 이미지 \![alt text](/test.png\)
@@ -396,7 +396,7 @@ Girls never die 절대 never cry <br>
 
 <br>
 
-## 14. Reference 참고 링크
+## 1️⃣4️⃣ Reference 참고 링크
 * [Matering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [마크다운 위키백과](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4)
 * [존 그루버의 웹사이트](https://daringfireball.net/projects/markdown/)
