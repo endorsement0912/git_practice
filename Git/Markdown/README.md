@@ -1,19 +1,3 @@
-##  🗂️ 목차
-[1. Headers 헤더](#1-headers-헤더)<br>
-[2. Emphasis 강조](#2-emphasis-강조)<br>
-[3. Blockquotes 인용](#3-blockquotes-인용)<br>
-[4. Lists 목록](#4-lists-목록)<br>
-[5. Backslash Escapes 백슬래쉬 이스케이프](#5-backslash-escapes-백슬래쉬-이스케이프)<br>
-[6. Links (Anchor) 링크](#7-links-anchor-링크)<br>
-[7. Fenced Code Blocks 코드 블럭](#8-fenced-code-blocks-코드-블럭)<br>
-[8. Task Lisk 체크 리스트](#9-task-lisk-체크-리스트)<br>
-[9. Horizontal Rules 수평선](#10-horizontal-rules-수평선)<br>
-[10. Emoji 이모티콘](#11-emoji-이모티콘)<br>
-[11. Table 테이블](#12-table-테이블)<br>
-[12. Line Breaks 줄바꿈](#13-line-breaks-줄바꿈)<br>
-[13. Images 이미지](#6-images-이미지)<br>
-[14. Reference 참고 링크](#14-reference-참고-링크)<br>
-
 ## 1️⃣ Headers 헤더
 * `#`으로 시작하는 텍스트.
 * `#`은 하나부터 여섯개까지 가능.
