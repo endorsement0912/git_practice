@@ -1,4 +1,4 @@
-### 깃허브 관련 게임 : https://learngitbranching.js.org/?locale=ko
+### 👾 깃허브 관련 게임 : https://learngitbranching.js.org/?locale=ko
 
 ## 1️⃣ Git 자주 사용하는 명령어 
 | 명령어                | 설명                                 | 
