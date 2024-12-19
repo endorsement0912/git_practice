@@ -69,7 +69,7 @@
 
 <br>
 
-## ⬇️ 레포지토리 import 방법
+## ⬇️ 다른 레포지토리 import 방법
 1. GitHub에 로그인한 후, 오른쪽 상단의 + 아이콘을 클릭
 
 2. New repository 클릭

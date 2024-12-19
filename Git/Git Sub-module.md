@@ -18,7 +18,7 @@
 
 </br>
 
-## ⛓️‍💥 서브 모듈 삭제 방법 
+## ⛓️‍💥 서브 모듈 삭제 방법 -1
 ⭐️ 커밋 및 add 아직 안한 변경사항 복구는 `git restore .`
 
 >1. `git config -f .gitmodules --remove-section submodule.modules` ➡️ `.gitmodules` 파일에서 서브모듈 정보 삭제
@@ -37,4 +37,18 @@
 >
 >8. `git push origin 브랜치명` ➡️ git에 푸시
 
+## ⛓️‍💥 서브 모듈 삭제 방법 -2
+>1. `git rm --cached 해제할_서보모듈` ➡️ 서보모듈 해제
+>
+>2. `rm -rf 해제할_서보모듈` ➡️ 서보모듈 디렉토리 수동 해제
+>
+>3. `.gitmodules`파일 수정 ➡️ 서보모듈이 `.gitmodules` 파일에 등록되어 있을 수 있으니 확인
+>
+>4. `git add .` ➡️ 변경 사항을 추가
+>
+>5. `git commit -m "커밋메세지"`  ➡️ 변경 사항을 커밋하여 저장소에 기록
+>
+>6. `git status(선택적)` ➡️ 변경 사항이 잘 반영 되었는지 확인
+>
+>7. `git push (origin main)` ➡️ 로컬 커밋을 원격 저장소에 업로드
 

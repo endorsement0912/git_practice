@@ -52,19 +52,26 @@
 | `git status`     | 현재 상태 확인      |
 | `git log"`     | 커밋 로그 확인       |
 | `git log --oneline"`     | 커밋 로그를 한 줄로 확인        |
+| `git fetch origin`  | 원격 저장소의 브랜치 목록을 최신으로 가져옴       |
 | `git branch"`     | 현재 로컬에 생성한 브랜치 확인     |
 | `git branch -r"`     | 원격 저장소에 생성된 브랜치 확인     |
 | `git branch 브랜치명"`     | 브랜치 생성     |
-| `git branch -d 브랜치명"`     | 브랜치 삭제      |
-| `git branch -D 브랜치명"`     | 브랜치 강제로 삭제   |
-| `git branch -m 변경할_브랜치명"`     | 브랜치 이름 변경       |
+| `git branch -d 브랜치명`     | 브랜치 삭제      |
+| `git branch -D 브랜치명`     | 브랜치 강제로 삭제   |
+| `git branch -m 변경할_브랜치명`     | 브랜치 이름 변경       |
+| `git checkout 이동할_브랜치명`     | 브랜치 이동     |
+| `git checkout -b 생성할_브랜치명`     | 브랜치 생성 및 이동     |
+| `git checkout 다른브랜치명 -- 복사할파일 `     | 현재 브랜치에서 다른 브랜치의 파일을 가져옴   |
 | `git switch 브랜치명"`     | 브랜치 전환       |
-| `git switch -"`     | 이전 브랜치로 돌아가기       |
-| `git switch -c 브랜치명"`     | 브랜치를 생성하고 해당 브랜치로 전환      |
-| `git merge 브랜치명"`     | 브랜치 병합       |
-| `git clone URL주소"`     | 원격 리포지터리 복제       |
-| `git push origin 로컬_브랜치명  | 브랜치를 원격 리포지터리로 푸시       |
-| `git pull origin 로컬_브랜치명  | 원격 리포지터리에 있는 브랜치를 로컬로 가져와 병합       |
+| `git switch -`     | 이전 브랜치로 돌아가기       |
+| `git switch -c 브랜치명`     | 브랜치를 생성하고 해당 브랜치로 전환      |
+| `git merge 브랜치명`     | 브랜치 병합       |
+| `git clone URL주소`     | 원격 리포지터리 복제       |
+| `git push origin 로컬_브랜치명`  | 브랜치를 원격 리포지터리로 푸시       |
+| `git push origin --delete 브랜치명`  | 원격저장소에서 브랜치 삭제      |
+
+| `git pull origin 로컬_브랜치명`  | 원격 리포지터리에 있는 브랜치를 로컬로 가져와 병합       |
+| `echo "추가할 내용" >> 넣을파일`  | 파일에 내용 추가      |
 
 
 ## 4️⃣ Git 응용 명령어
