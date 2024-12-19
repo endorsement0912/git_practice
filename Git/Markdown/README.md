@@ -146,9 +146,9 @@ As Grace Hopper said:
 () parentheses, # hash mark, + plus sign, - minus sign (hyphen), . dot, ! exclamation mark
 
 ### 사용방법
-	\*literal asterisks\*
-	\#hash mark\#
-	\[squre brackets\]
+    \*literal asterisks\*
+    \#hash mark\#
+    \[squre brackets\]
 
 ### 실행결과
 \*literal asterisks\*<br>
@@ -160,16 +160,16 @@ As Grace Hopper said:
 
 ## 6️⃣ Links (Anchor) 링크
 ## 6️⃣.1️⃣ External Links 외부 링크
-	인라인 링크: [링크](http://example.com "링크 제목")
-	url 링크: <example.com>, <example@example.com>; 꺽쇠 괄호 없어도 자동으로 링크를 사용
+    인라인 링크: [링크](http://example.com "링크 제목")
+    url 링크: <example.com>, <example@example.com>; 꺽쇠 괄호 없어도 자동으로 링크를 사용
 
 ### 사용방법
-	[Google](http://www.google.com "구글")
-	[Naver](http://www.naver.com "네이버")
-	[Github](http://www.github.com "깃허브")
-	구글 www.google.com; 꺽쇠없음
-	네이버 <www.naver.com>; 꺽쇠있음
-	My mail <jinkyukim.dev@gmail.com>
+    [Google](http://www.google.com "구글")
+    [Naver](http://www.naver.com "네이버")
+    [Github](http://www.github.com "깃허브")
+    구글 www.google.com; 꺽쇠없음
+    네이버 <www.naver.com>; 꺽쇠있음
+    My mail <jinkyukim.dev@gmail.com>
 
 ### 실행결과
 [Google](http://www.google.com "구글")<br>
@@ -180,13 +180,13 @@ As Grace Hopper said:
 My mail <jinkyukim.dev@gmail.com><br>
 
 ## 6️⃣.2️⃣ Internal Links 내부 링크
-	[보여지는 내용](#이동할 헤드(제목))
-	괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성
+    [보여지는 내용](#이동할 헤드(제목))
+    괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성
 
 ### 사용방법
-	[1. Headers 헤더](#1-headers-헤더)
-	[2. Emphasis 강조](#2-emphasis-강조)
-	[3. Blockquotes 인용](#3-blockquotes-인용)
+    [1. Headers 헤더](#1-headers-헤더)
+    [2. Emphasis 강조](#2-emphasis-강조)
+    [3. Blockquotes 인용](#3-blockquotes-인용)
 
 ### 실행결과
 [1. Headers 헤더](#1-headers-헤더)<br>
@@ -203,18 +203,18 @@ My mail <jinkyukim.dev@gmail.com><br>
 * \`\`\` 옆에 언어를 지정해주면 syntax color가 적용됨
 
 ### 사용방법
-	```
-	This is code blocks.
-	```
-	~~~
-	This is code blocks.
-	~~~
-		4 spaces
-	```javascript
-	function test() {
-	 console.log("look ma’, no spaces");
-	}
-	```
+    ```
+    This is code blocks.
+    ```
+    ~~~
+    This is code blocks.
+    ~~~
+        4 spaces
+    ```javascript
+    function test() {
+     console.log("look ma’, no spaces");
+    }
+    ```
 ### 실행결과
 ```
 This is code blocks.
@@ -222,7 +222,7 @@ This is code blocks.
 ~~~
 This is code blocks.
 ~~~
-	4 spaces
+    4 spaces
 ```javascript
 function test() {
  console.log("look ma’, no spaces");
@@ -236,14 +236,14 @@ function test() {
 * 체크 안에서 강조 외에 여러 기능을 사용할 수 있음
 
 ### 사용방법
-	- [x] this is a complete item
-	- [ ] this is an incomplete item
-	- [x] @mentions, #refs, [links](),
-	**formatting**, and <del>tags</del>
-	supported
-	- [x] list syntax required (any
-	unordered or ordered list
-	supported)
+    - [x] this is a complete item
+    - [ ] this is an incomplete item
+    - [x] @mentions, #refs, [links](),
+    **formatting**, and <del>tags</del>
+    supported
+    - [x] list syntax required (any
+    unordered or ordered list
+    supported)
 
 ### 실행결과
 - [x] this is a complete item
@@ -262,11 +262,11 @@ supported)
 * 단, -을 사용할 경우 header로 인식할 수 있으니 이 전 라인은 비워둬야 함
 
 ### 사용방법
-	* * *
-	***
-	*****
-	- - -
-	-------------------
+    * * *
+    ***
+    *****
+    - - -
+    -------------------
 
 ### 실행결과
 * * *
@@ -284,9 +284,9 @@ supported)
 * www.emoji-cheat-sheet.com
 
 ### 사용벙법
-	GitHub supports emoji!
-	:+1: :sparkles: :camel: :tada:
-	:rocket: :metal: :octocat:
+    GitHub supports emoji!
+    :+1: :sparkles: :camel: :tada:
+    :rocket: :metal: :octocat:
 
 ### 실행결과
 GitHub supports emoji!
@@ -301,22 +301,22 @@ GitHub supports emoji!
 * 가장 좌측과 가장 우측에 있는 |(vertical bar) 기호는 생략 가능
 
 ### 사용방법
-	테이블 생성
+    테이블 생성
 
-	헤더1|헤더2|헤더3|헤더4
-	---|---|---|---
-	셀1|셀2|셀3|셀4
-	셀5|셀6|셀7|셀8
-	셀9|셀10|셀11|셀12
+    헤더1|헤더2|헤더3|헤더4
+    ---|---|---|---
+    셀1|셀2|셀3|셀4
+    셀5|셀6|셀7|셀8
+    셀9|셀10|셀11|셀12
 
-	테이블 정렬
+    테이블 정렬
 
-	헤더1|헤더2|헤더3
-	:---|:---:|---:
-	Left|Center|Right
-	1|2|3
-	4|5|6
-	7|8|9
+    헤더1|헤더2|헤더3
+    :---|:---:|---:
+    Left|Center|Right
+    1|2|3
+    4|5|6
+    7|8|9
 
 ### 실행결과
 테이블 생성
@@ -342,14 +342,14 @@ Left|Center|Right
 * `<br>`를 활용해서 줄바꿈을 할 수 있음
 
 ### 사용방법
-	비켜봐 봐, 비켜 핑계는 <br>
-	우린 본질 속에 진주가 될래  <br>
+    비켜봐 봐, 비켜 핑계는 <br>
+    우린 본질 속에 진주가 될래  <br>
     꿈의 난이도 좀 더 난 높일게 <br>
     고통, 시련 다듬어 내가 될게 <br>
-	I'm just 이제 조금 알겠어 <br>
+    I'm just 이제 조금 알겠어 <br>
     I shine 왜 날 힘들게 울게만 둔 건지 <br>
     Hold me closer broken myself, yeah <br>
-	La-la-la, la-la-la-la <br>
+    La-la-la, la-la-la-la <br>
     끝까지 가볼래 포기는 안 할래 난 <br>
     La-la-la, la-la-la-la <br>    
     쓰러져도 일어나 <br>
@@ -383,15 +383,15 @@ Girls never die 절대 never cry <br>
 * 이미지의 사이즈를 변경하기 위해서는 `<img width="OOOpx" height="OOOpx"></img>`와 같이 표현
 
 ### 사용방법
-	![alt 토심이랑 토뭉이](/img/Toshim_and_Tohmong.PNG)
-  	![alt 토심](/img/Toshim.PNG)
+    ![alt 토심이랑 토뭉이](/img/Toshim_and_Tohmong.PNG)
+    ![alt 토심](/img/Toshim.PNG)
     ![alt 토심이랑 토뭉이2](/img/Toshim_and_Tohmong2.PNG)
 
     
 ### 실행결과
-![alt 토심이랑 토뭉이](/Git/img/Toshim_and_Tohmong.PNG)
-![alt 토심](/Git/img/Toshim.PNG)
-![alt 토심이랑 토뭉이2](/Git/img/Toshim_and_Tohmong2.PNG)
+![alt 토심이랑 토뭉이](/Git/Markdown/img/Toshim_and_Tohmong.PNG)
+![alt 토심](/Git/Markdown/img/Toshim.PNG)
+![alt 토심이랑 토뭉이2](/Git/Markdown/img/Toshim_and_Tohmong2.PNG)
 
 <br>
 
