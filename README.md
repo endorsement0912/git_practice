@@ -25,6 +25,7 @@
 | `git blame 파일명`   | 파일에서 각 줄의 마지막 수정자 확인    |
 | `git remote remove origin`   | 기존 원격 저장소 연결 제거    |
 
+</br>
 
 ### 추가 설명
 * `git init` ➡️ 처음 깃 저장소를 설정할때 필요
