@@ -389,9 +389,9 @@ Girls never die 절대 never cry <br>
 
     
 ### 실행결과
-![alt 토심이랑 토뭉이](/img/Toshim_and_Tohmong.PNG)
-![alt 토심](/img/Toshim.PNG)
-![alt 토심이랑 토뭉이2](/img/Toshim_and_Tohmong2.PNG)
+![alt 토심이랑 토뭉이](/Git/img/Toshim_and_Tohmong.PNG)
+![alt 토심](/Git/img/Toshim.PNG)
+![alt 토심이랑 토뭉이2](/Git/img/Toshim_and_Tohmong2.PNG)
 
 <br>
 
