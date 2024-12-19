@@ -42,19 +42,19 @@
 
 ## 🗂️ 리포지토리 변경 및 원격 저장소 설정 방법
 ⛓️‍💥 새 리포지토리로 변경하기
-* `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
-* `git clone 레포지토리주소` ➡️ 새 리포지토리를 로컬에 클론
+ 1. `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
+ 2. `git clone 레포지토리주소` ➡️ 새 리포지토리를 로컬에 클론
 
 <br>
 
 🔗 기존 리포지토리로 변경하기
-* `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
-* `git remote add origin 레포지토리주소` ➡️ 자신의 기존 원격 저장소를 추가
+ 1. `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
+ 2. `git remote add origin 레포지토리주소` ➡️ 자신의 기존 원격 저장소를 추가
 
     * `git clone 레포지토리주소`는 이미 클론된 리포지토리 디렉토리가 있는 경우에는 사용불가
     * 기존 작업 디렉토리에서 바로 변경하고 싶으면 `git remote add origin 레포지토리주소`가 더 적합
 
-* git push -u origin 브랜치명 ➡️ 로컬 브랜치의 커밋을 원격 저장소에 푸시
+ 3. git push -u origin 브랜치명 ➡️ 로컬 브랜치의 커밋을 원격 저장소에 푸시
 
 <br>
 
@@ -66,3 +66,37 @@
 3. Base : 보낼곳 / compare : 보낼 내용
 
 4. Create Pull request * 2 누르기
+
+<br>
+
+## ⬇️ 레포지토리 import 방법
+1. GitHub에 로그인한 후, 오른쪽 상단의 + 아이콘을 클릭
+
+2. New repository 클릭
+
+3. 레포지토리 이름을 입력하고, 원하는 설정(공개/비공개 등)을 선택한 후 Create repository 클릭
+
+4. import 하고 싶은 레포지토리에서 Pull requests 클릭
+
+5. 오른쪽 상단의 + 아이콘을 클릭
+
+6. Import repository 클릭
+
+7. Your old repository’s clone URL에 기존 레포지토리의 URL을 입력(내 계정 주소 가능 - https://github.com/계정이름.git)
+
+8. GitHub repository name에 새로운 레포지토리 이름을 입력하고, Begin Import를 클릭
+
+
+## 🗑️ 레포지토리 삭제 방법
+1. 삭제할 레포지토리에서 상단의 Settings 클릭
+
+2. 화면 맨 아래에 Danger Zone에서 Delete this repository를 클릭
+
+3. I want tp delete this repository 클릭
+
+4. I have read and understand these effects 클릭
+
+3. Ti confirm, type "____레포지토리주소___"에서 []에 레포지토리 주소 그대로 적고 'Delete this repository' 버튼 클릭
+
+4. password를 입력한 후 confirm 버튼 클릭
+
