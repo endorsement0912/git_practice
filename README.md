@@ -22,10 +22,12 @@
 | `git log --graph --oneline`   | 커밋 히스토리를 트리 형식으로 간략하게 표시    |
 | `git blame 파일명`   | 파일에서 각 줄의 마지막 수정자 확인    |
 | `git remote remove origin`   | 기존 원격 저장소 연결 제거    |
+| `git blame 파일명`   | 파일에서 각 줄의 마지막 수정자 확인    |
+| `git remote remove origin`   | 기존 원격 저장소 연결 제거    |
 
 
 ### 추가 설명
 * `git init` ➡️ 처음 깃 저장소를 설정할때 필요
 * `git blame` ➡️ 특정 파일의 각 줄에 대해 마지막으로 변경한 사람이 누구인지, 언제 수정되었는지를 확인
 
-<br>
+</br>
