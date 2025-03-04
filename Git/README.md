@@ -70,21 +70,18 @@
 <br>
 
 ## ⬇️ 다른 레포지토리 import 방법
-1. GitHub에 로그인한 후, 오른쪽 상단의 + 아이콘을 클릭
+1. import 하고 싶은 레포지토리에서 Pull requests 클릭
 
-2. New repository 클릭
+2. 오른쪽 상단의 + 아이콘을 클릭
 
-3. 레포지토리 이름을 입력하고, 원하는 설정(공개/비공개 등)을 선택한 후 Create repository 클릭
+3. Import repository 클릭
 
-4. import 하고 싶은 레포지토리에서 Pull requests 클릭
+4. Your source repository details에 복사하려는 repository의 git주소 입력(github repo에서 가지고 오는 경우 .git도 마지막에 붙음)
 
-5. 오른쪽 상단의 + 아이콘을 클릭
+5. Your username for your source repository, Your access token or password for your source repository - 해당 레포지토리에 권한을 가진 유저 정보 입력하는 곳 (필수는 아님)
 
-6. Import repository 클릭
+6. Your new repository details에 새로운 레포지토리 이름 입력하고, Begin Import를 클릭 
 
-7. Your old repository’s clone URL에 기존 레포지토리의 URL을 입력(내 계정 주소 가능 - https://github.com/계정이름.git)
-
-8. GitHub repository name에 새로운 레포지토리 이름을 입력하고, Begin Import를 클릭
 
 
 ## 🗑️ 레포지토리 삭제 방법
