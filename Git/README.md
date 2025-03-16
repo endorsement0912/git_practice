@@ -67,6 +67,17 @@
 
 4. Create Pull request * 2 누르기
 
+## 🔄 원본 레포지토리와 동기화하는 방법
+1. `git remote add upstream 원본레포지토리주소` ➡️ 업스트립 추가(원본 레포지 토리와 연결) - `git remote -v` 명령어로 확인하면 upstream이 추가된 걸 볼 수 있음
+   
+2. `git fetch upstream` ➡️ 원본 저상소의 최신 코드 가져오기
+
+3. `git checkout 브랜치명 (메인 브랜치로 이동)` ➡️ 내 브랜치와 병합
+   `git merge upstream/브랜치명 (원본 저장소의 브랜치와 병합)`
+    
+4. `git push origin 브랜치명` ➡️ 변경 사항을 내 GitHub fork에 푸시
+
+
 <br>
 
 ## ⬇️ 다른 레포지토리 import 방법
