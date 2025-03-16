@@ -64,6 +64,7 @@
 3. Base : 보낼곳 / compare : 보낼 내용
 
 4. Create Pull request * 2 누르기
+<br>
 
 ## 🔄 원본 레포지토리와 동기화하는 방법
 1. `git remote add upstream 원본레포지토리주소` ➡️ 업스트립 추가(원본 레포지 토리와 연결) - `git remote -v` 명령어로 확인하면 upstream이 추가된 걸 볼 수 있음
@@ -74,8 +75,6 @@
    `git merge upstream/브랜치명 (원본 저장소의 브랜치와 병합)`
     
 4. `git push origin 브랜치명` ➡️ 변경 사항을 내 GitHub fork에 푸시
-
-
 <br>
 
 ## ⬇️ 다른 레포지토리 import 방법
@@ -90,8 +89,7 @@
 5. Your username for your source repository, Your access token or password for your source repository - 해당 레포지토리에 권한을 가진 유저 정보 입력하는 곳 (필수는 아님)
 
 6. Your new repository details에 새로운 레포지토리 이름 입력하고, Begin Import를 클릭 
-
-
+<br>
 
 ## 🗑️ 레포지토리 삭제 방법
 1. 삭제할 레포지토리에서 상단의 Settings 클릭
