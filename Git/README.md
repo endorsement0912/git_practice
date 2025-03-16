@@ -44,7 +44,6 @@
 ⛓️‍💥 새 리포지토리로 변경하기
  1. `git remote remove origin` ➡️ 기존 원격 저장소 연결을 제거
  2. `git clone 레포지토리주소` ➡️ 새 리포지토리를 로컬에 클론
-
 <br>
 
 🔗 기존 리포지토리로 변경하기
@@ -55,7 +54,6 @@
     * 기존 작업 디렉토리에서 바로 변경하고 싶으면 `git remote add origin 레포지토리주소`가 더 적합
 
  3. git push -u origin 브랜치명 ➡️ 로컬 브랜치의 커밋을 원격 저장소에 푸시
-
 <br>
 
 ## ⬅️ Pull Requests 방법
