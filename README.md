@@ -4,20 +4,21 @@
 | 명령어                | 설명                                 | 
 |-----------------------|------------------------------------|
 | `git init`           | 새로운 깃 저장소 초기화              |
-| `git status`         | 현재 작업 디렉토리 상태 확인          |
+| `git clone URL`      | 원격 저장소 복제                   |
+| `git remote add origin 레포지토리주소`      | 원격 저장소 연결                 |
 | `git add .`          | 모든 변경 파일을 스테이징에 추가       |
-| `git add -u`         | 수정되거나 삭제된 기존 파일들을 스테이징      |
 | `git commit -m "메시지"` | 변경사항 커밋                       |
+| `git push (origin 브랜치명)`           | 로컬 변경사항을 원격 저장소로 푸시   |
+| `git push -u (origin 브랜치명)`           | 원격 저장소와 로컬 브랜치 연결 및 추적 설정   |
+| `git pull (origin 브랜치명)`           | 원격 저장소에서 변경사항 가져오기    |
+| `git pull (origin 브랜치명) --rebase`           | 원격 저장소의 main 브랜치 변경 사항을 로컬 브랜치에 리베이스 방식으로    |
+| `git status`         | 현재 작업 디렉토리 상태 확인          |
+| `git merge 브랜치명`  | 브랜치 병합                         |
 | `git branch`         | 브랜치 목록 확인 및 생성             |
 | `git checkout 브랜치명` | 특정 브랜치로 이동                  |
 | `git switch 브랜치명`         | 다른 브랜치로 이동           |
 | `git switch -c 브랜치명`        | 새로운 브랜치 생성 및 이동하기           |
 | `git restore 파일명` | 마지막 커밋 기준으로 발생한 변경사항 되돌리기    |
-| `git merge 브랜치명`  | 브랜치 병합                         |
-| `git pull (origin 브랜치명)`           | 원격 저장소에서 변경사항 가져오기    |
-| `git push (origin 브랜치명)`           | 로컬 변경사항을 원격 저장소로 푸시   |
-| `git push -u (origin 브랜치명)`           | 원격 저장소와 로컬 브랜치 연결 및 추적 설정   |
-| `git clone URL`      | 원격 저장소 복제                   |
 | `git log`            | 커밋 로그 확인                      |
 | `git log --graph --oneline`   | 커밋 히스토리를 트리 형식으로 간략하게 표시    |
 | `git blame 파일명`   | 파일에서 각 줄의 마지막 수정자 확인    |
@@ -48,6 +49,7 @@
 | `git init`  | git 리포지터리 생성          |
 | `git add 파일명`  | 스테이징 영역에 추가         |
 | `git add .`     | 모든 파일을 스테이징 영역에 추가       |
+| `git add -u`         | 수정되거나 삭제된 기존 파일들을 스테이징      |
 | `git commit -m "메세지"`     | 변경 사항 커밋       |
 | `git status`     | 현재 상태 확인      |
 | `git log"`     | 커밋 로그 확인       |
