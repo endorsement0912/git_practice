@@ -3,6 +3,7 @@
 ## 1️⃣ Git 자주 사용하는 명령어 
 | 명령어                | 설명                                 | 
 |-----------------------|------------------------------------|
+| `git remote remove origin`   | 기존 원격 저장소 연결 제거    |
 | `git init`           | 새로운 깃 저장소 초기화              |
 | `git clone URL`      | 원격 저장소 복제                   |
 | `git remote add origin 레포지토리주소`      | 원격 저장소 연결                 |
@@ -22,7 +23,7 @@
 | `git log`            | 커밋 로그 확인                      |
 | `git log --graph --oneline`   | 커밋 히스토리를 트리 형식으로 간략하게 표시    |
 | `git blame 파일명`   | 파일에서 각 줄의 마지막 수정자 확인    |
-| `git remote remove origin`   | 기존 원격 저장소 연결 제거    |
+
 
 ### + 추가 설명
 * `git init` ➡️ 처음 깃 저장소를 설정할때 필요</br>
