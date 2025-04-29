@@ -56,7 +56,16 @@
  3. `git push -u origin 브랜치명` ➡️ 로컬 브랜치의 커밋을 원격 저장소에 푸시
 <br>
 
+## 🔗 main_branch 기반으로 branch 생성 방법
+1. `git checkout 메인_브랜치`     # 메인브랜치로 먼저 이동
+
+2. `git pull origin 메인_브랜치`     # (필요 시) 최신 코드로 맞추기
+
+3. `git branch -b 생성할_브랜치명`   # 메인브랜치 기반으로 새 브랜치 생성 후 이동
+<br>
+
 ## ⬅️ Pull Requests 방법
+📍참고 : https://blog.naver.com/endorsement_r/223850161175
 1. 깃허브 화면에서 pull requests 누르기
 
 2. New Pull Requests 누르기
@@ -64,7 +73,10 @@
 3. Base : 보낼곳 / compare : 보낼 내용
 
 4. Create Pull request * 2 누르기
+
 <br>
+
+
 
 ## 🔄 원본 레포지토리와 동기화하는 방법
 1. `git remote add upstream 원본레포지토리주소` ➡️ 업스트립 추가(원본 레포지 토리와 연결) - `git remote -v` 명령어로 확인하면 upstream이 추가된 걸 볼 수 있음
@@ -90,6 +102,12 @@
 
 6. Your new repository details에 새로운 레포지토리 이름 입력하고, Begin Import를 클릭 
 <br>
+
+## 🗑️ 특정 branch 삭제 방법
+1. `git checkout 다른_브랜치`     # 다른_브랜치로 먼저 이동
+2. `git branch -d 삭제할_브랜치명` # 브랜치 삭제
+
+  ➕ `git switch -c 브랜치명` # 새로운 브랜치 생성 및 이동하기
 
 ## 🗑️ 레포지토리 삭제 방법
 1. 삭제할 레포지토리에서 상단의 Settings 클릭
