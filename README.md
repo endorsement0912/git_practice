@@ -1,4 +1,5 @@
 ### 👾 깃허브 관련 게임 : https://learngitbranching.js.org/?locale=ko
+### 📍 SourceTree 활용 PR 방법 : https://blog.naver.com/endorsement_r/223850161175
 
 ## 1️⃣ Git 자주 사용하는 명령어 
 | 명령어                | 설명                                 | 
