@@ -57,11 +57,21 @@
 <br>
 
 ## 🔗 main_branch 기반으로 branch 생성 방법
-1. `git checkout 메인_브랜치`     # 메인브랜치로 먼저 이동
 
-2. `git pull origin 메인_브랜치`     # (필요 시) 최신 코드로 맞추기
+1. 저장소 클론 또는 이동
+`git clone [repo_url]`
+`cd [repo_name]`
 
-3. `git branch -b 생성할_브랜치명`   # 메인브랜치 기반으로 새 브랜치 생성 후 이동
+2. 최신 main 브랜치 받기
+`git checkout main`
+`git pull origin main`
+
+3. 새 브랜치 생성 및 이동
+`git checkout -b 새_브랜치_이름`
+
+4. 원격 저장소에 브랜치 푸시
+`git push origin 새_브랜치_이름`
+
 <br>
 
 ## ⬅️ Pull Requests 방법
